@@ -16,35 +16,55 @@ extract(filePath, function (err, pages) {
 
 function processPage(pageString) {
   // loops through text to convert OCR to object
-  const billObj = {}
+  const billObj = {
+    itemNumber: undefined,
+    id: undefined,
+    title: undefined,
+    sponsors: undefined,
+    text: undefined,
+    fiscalImpact: false,
+    statusLog: undefined,
+    question: undefined,
+  }
 
-
-  const billRegEx = /\d\. +\d{6} +(.|\n)*?[A-Z]+\?/g
+  const billRegEx = /\d+\. +\d{6} +(.|\n)*?[A-Z]+\?/g
 
   // Separate out each bill
   const bills = pageString.match(billRegEx)
-  const bill = bills[0]
+  const bill = bills[2]
 
   const data = bill.split(/ {2,}/)
 
   // Grab bill attributes in status positions
   billObj.itemNumber = Number(data[0].slice(0, data[0].length - 1))
   billObj.id = Number(data[1])
-  // TODO: fix multi-line title
-  billObj.title = data[2].split('[')[1].split(']')[0]
-  console.log(billObj)
-  billObj.sponsors = data[3].trim().split(': ')[1].split('; ')
-  billObj.question = data[data.length - 1]
+
+  let remainingLines = data.slice(2, data.length - 1)
+
+  // Find title lines
+  const titleLines = []
+  while (!remainingLines[0].includes(']')) {
+    titleLines.push(remainingLines.shift().trim())
+  }
+  titleLines.push(remainingLines.shift().trim())
+  billObj.title = titleLines.join(' ').split('[')[1].split(']')[0]
 
 
+  // Find sponsor lines
+  const startOfSponsors = /^Sponsors?: /
+  if (remainingLines.some(line => startOfSponsors.test(line))) {
+    const startOfDescription = /^(Ordinance|Motion|Resolution) /
+    const sponsorLines = []
+    while (!startOfDescription.test(remainingLines[0])) {
+      sponsorLines.push(remainingLines.shift().trim())
+    }
+    billObj.sponsors = sponsorLines.join(' ').split(': ')[1].split('; ')
+  }
 
-  let remainingLines = data.slice(4, data.length - 1)
-
-  billObj.fiscalImpact = false
   // Search and remove '(Fiscal Impact)' line
   const lineLengthBeforeSearching = remainingLines.length
   remainingLines = remainingLines.filter(line => !/\(Fiscal Impact\)/.test(line))
-  if (remainingLines.length < lineLengthBeforeSearching) {
+  if (lineLengthBeforeSearching > remainingLines.length) {
     billObj.fiscalImpact = true
   }
 
@@ -60,13 +80,11 @@ function processPage(pageString) {
     })
   }
 
+  billObj.text = remainingLines.reduce((memo, line) => {
+    return memo + line.trim() + ' '
+  }, '').trim()
 
-
-  billObj.raw = remainingLines
-
-  // data.forEach((row) => {
-  //   // is it a
-  // })
+  billObj.question = data[data.length - 1]
 
   return billObj
 }
