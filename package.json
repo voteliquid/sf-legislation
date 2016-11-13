@@ -4,6 +4,7 @@
   "description": "Parse SF Board of Supervisor meeting minutes",
   "main": "index.js",
   "dependencies": {
+    "lodash": "^4.16.6",
     "pdf-text-extract": "^1.4.1"
   },
   "devDependencies": {},

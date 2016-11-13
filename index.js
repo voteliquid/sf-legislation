@@ -1,21 +1,19 @@
 var path = require('path')
 var filePath = path.join(__dirname, 'pdfs/bag110116_agenda.pdf')
 var extract = require('pdf-text-extract')
+var _ = require('lodash')
+
 extract(filePath, function (err, pages) {
   if (err) {
     console.dir(err)
     return
   }
 
-  const currentPage = pages[6]
-
-  console.log(processPage(currentPage)) // eslint-disable-line
+  console.log(_.flatten(pages.map(processPage))) // eslint-disable-line
 
 })
 
-
-function processPage(pageString) {
-  // loops through text to convert OCR to object
+function processBillText(bill) {
   const billObj = {
     itemNumber: undefined,
     id: undefined,
@@ -26,12 +24,6 @@ function processPage(pageString) {
     statusLog: undefined,
     question: undefined,
   }
-
-  const billRegEx = /\d+\. +\d{6} +(.|\n)*?[A-Z]+\?/g
-
-  // Separate out each bill
-  const bills = pageString.match(billRegEx)
-  const bill = bills[2]
 
   const data = bill.split(/ {2,}/)
 
@@ -87,4 +79,14 @@ function processPage(pageString) {
   billObj.question = data[data.length - 1]
 
   return billObj
+}
+
+function processPage(pageString) {
+  // loops through text to convert OCR to object
+
+  const billRegEx = /\d+\. +\d{6} +(.|\n)*?[A-Z]+\?/g
+  // Separate out each bill
+  const bills = pageString.match(billRegEx)
+
+  return bills ? bills.map(processBillText) : []
 }
