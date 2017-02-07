@@ -30,6 +30,7 @@ Promise.all(agendaDates)
     .map(bill => Object.assign(bill, {
       date: convertDateString(date),
       source_doc: `bag${date}_agenda.pdf`,
+      uid: `${convertDateString(date)}-${bill.id}`,
     }))
 
     .tap((agenda) => {
