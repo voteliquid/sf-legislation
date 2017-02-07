@@ -1,3 +1,4 @@
+const fs = require('fs')
 const util = require('util')
 const Promise = require('bluebird')
 const parseAgendaFile = require('./parse-agenda-file')
@@ -28,7 +29,18 @@ Promise.all(agendaDates)
       date: convertDateString(date),
       source_doc: `bag${date}_agenda.pdf`,
     }))
-    .then((agenda) => {
+
+    .tap((agenda) => {
       console.log(util.inspect(agenda, { depth: null }))
+    })
+
+    .then((agenda) => {
+      // Write agenda to ./json/ directory
+      const filePath = `./json/${date}.js`
+
+      fs.writeFileSync(filePath, 'module.exports =\n')
+      fs.appendFileSync(filePath, util.inspect(agenda, { depth: null }))
+      fs.appendFileSync(filePath, '\n')
+
     })
   ))
