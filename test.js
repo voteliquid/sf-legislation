@@ -1,24 +1,41 @@
-// Test the parseAgendaFile function against the stored json
+// // Test the parseAgendaFile function against stored json expectations
 
-const storedJSON = require('./json/110116.js')
+const Promise = require('bluebird')
 const parseAgendaFile = require('./parse-agenda-file')
 
-const fieldsToCheck = [
-  'itemNumber',
-  'id',
-  'title',
-  'sponsors',
-  'text',
-  'fiscalImpact',
-  'statusLog',
-  'question',
-]
+// Check each of these agenda dates
+Promise.resolve([
+  '011017',
+  '012417',
+  '013117',
+  '110116',
+  '111516',
+  '112916',
+  '120616',
+  '121316',
+])
+.each((date) => {
 
-// Parse the file
-parseAgendaFile('./pdfs/bag110116_agenda.pdf')
+  // Load the expected json for the agenda
+  const storedJSON = require(`./json/${date}.js`) // eslint-disable-line import/no-dynamic-require
+
+  // Parse the pdf file
+  parseAgendaFile(`./pdfs/bag${date}_agenda.pdf`)
+
+  // Check each bill
   .each((bill, index) => {
-    // Does it match the stored values?
-    fieldsToCheck.forEach((field) => {
+
+    // Check each of these fields
+    [
+      'itemNumber',
+      'id',
+      'title',
+      'sponsors',
+      'text',
+      'fiscalImpact',
+      'statusLog',
+      'question',
+    ].forEach((field) => {
 
       const expected = JSON.stringify(storedJSON[index][field])
       const actual = JSON.stringify(bill[field])
@@ -28,8 +45,10 @@ parseAgendaFile('./pdfs/bag110116_agenda.pdf')
         console.log('Actual:', actual)
         console.log()
 
-        throw new Error(`FAILED PARSE: agenda[${index}][${field}]`)
+        throw new Error(`PARSE EXPECTATION FAILURE: agenda[${index}][${field}]`)
       }
     })
 
   })
+
+})
