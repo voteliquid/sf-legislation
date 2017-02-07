@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "array-bracket-spacing": "off",
+    "indent": "off",
+  },
+}
