@@ -4,6 +4,7 @@
   "description": "Parse SF Board of Supervisor meeting minutes",
   "main": "index.js",
   "dependencies": {
+    "bluebird": "^3.4.7",
     "dotenv": "^4.0.0",
     "lodash": "^4.16.6",
     "pdf-text-extract": "^1.4.1",
@@ -16,7 +17,7 @@
   },
   "scripts": {
     "fix": "eslint . --fix",
-    "test": "eslint ."
+    "test": "eslint . && node test.js"
   },
   "author": "David Ernst <npm@dsernst.com> (http://dsernst.com)",
   "license": "ISC"
