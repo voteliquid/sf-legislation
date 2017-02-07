@@ -1,9 +1,10 @@
-var path = require('path')
-var filePath = path.join(__dirname, 'pdfs/bag110116_agenda.pdf')
-var extract = require('pdf-text-extract')
-var _ = require('lodash')
+const path = require('path')
+const extract = require('pdf-text-extract')
+const _ = require('lodash')
 
-extract(filePath, function (err, pages) {
+const filePath = path.join(__dirname, 'pdfs/bag110116_agenda.pdf')
+
+extract(filePath, (err, pages) => {
   if (err) {
     console.dir(err)
     return
@@ -72,9 +73,7 @@ function processBillText(bill) {
     })
   }
 
-  billObj.text = remainingLines.reduce((memo, line) => {
-    return memo + line.trim() + ' '
-  }, '').trim()
+  billObj.text = remainingLines.reduce((memo, line) => `${memo}${line.trim()} `, '').trim()
 
   billObj.question = data[data.length - 1]
 
