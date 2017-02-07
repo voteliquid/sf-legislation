@@ -68,22 +68,25 @@ function processBillText(bill) {
   return billObj
 }
 
-function processPage(pageString) {
-  // loops through text to convert OCR to object
-
-  const billRegEx = /\d+\. +\d{6} +(.|\n)*?[A-Z]+\?/g
-  // Separate out each bill
-  const bills = pageString.match(billRegEx)
-
-  return bills ? bills.map(processBillText) : []
-}
-
 module.exports = function parseAgenda(filePath) {
   return new Promise((accept, reject) => {
     extract(filePath, (err, pages) => {
       if (err) { return reject(err) }
 
-      accept(_.flatten(pages.map(processPage)))
+      accept(_.flatten(pages.map((pageString) => {
+        // loops through text to convert OCR to object
+
+        // Skip items about Closed Sessions
+        const closedSessionRegEx = /\d+\. +\d{6} +(.|\n)*?Closed Session: The Board of Supervisors shall confer with City Attorney./g
+        const pageStringWithoutClosedSession = pageString.replace(closedSessionRegEx, '')
+
+        // Separate out each bill
+        // // Looks for start of agenda item, until 'QUESTION?'
+        const billRegEx = /\d+\. +\d{6} +(.|\n)*?[A-Z]+\?/g
+        const bills = pageStringWithoutClosedSession.match(billRegEx) || []
+
+        return bills.map(processBillText)
+      })))
     })
   })
 }
