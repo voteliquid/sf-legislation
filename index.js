@@ -6,6 +6,7 @@ const parseAgendaFile = require('./parse-agenda-file')
 const agendaDates = [
   '011017',
   '012417',
+  '013117',
   '110116',
   '111516',
   '112916',
