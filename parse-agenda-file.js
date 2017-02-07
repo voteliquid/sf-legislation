@@ -1,5 +1,6 @@
 const extract = require('pdf-text-extract')
 const _ = require('lodash')
+const Promise = require('bluebird')
 
 function processBillText(bill) {
   const billObj = {
