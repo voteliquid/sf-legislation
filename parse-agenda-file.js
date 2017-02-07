@@ -34,7 +34,7 @@ function processBillText(bill) {
   // Find sponsor lines
   const startOfSponsors = /^Sponsors?: /
   if (remainingLines.some(line => startOfSponsors.test(line))) {
-    const startOfDescription = /^(Ordinance|Motion|Resolution) /
+    const startOfDescription = /^(Ordinance|Motion|Resolution|Hearing) /
     const sponsorLines = []
     while (!startOfDescription.test(remainingLines[0])) {
       sponsorLines.push(remainingLines.shift().trim())
