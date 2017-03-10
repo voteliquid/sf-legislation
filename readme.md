@@ -1,6 +1,6 @@
-# stenotype
+# sf-legislation
 
-## Parse SF Board of Supervisor meeting minutes
+## Parse SF Board of Supervisor agendas
 
 ### Install
 

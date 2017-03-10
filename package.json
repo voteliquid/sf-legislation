@@ -1,7 +1,7 @@
 {
-  "name": "legislation",
-  "version": "0.0.1",
-  "description": "Parse SF Board of Supervisor meeting minutes",
+  "name": "sf-legislation",
+  "version": "1.0.0",
+  "description": "Parse SF Board of Supervisor agendas",
   "dependencies": {
     "bluebird": "^3.4.7",
     "cheerio": "^0.22.0",
