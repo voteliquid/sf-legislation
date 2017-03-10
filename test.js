@@ -1,7 +1,7 @@
 // // Test the parseAgendaFile function against stored json expectations
 
 const Promise = require('bluebird')
-const parseAgendaFile = require('./parse-agenda-file')
+const parseAgendaFile = require('./src/parse-agenda-pdf')
 
 // Check each of these agenda dates
 Promise.resolve([
