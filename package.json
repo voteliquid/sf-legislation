@@ -1,8 +1,7 @@
 {
-  "name": "stenotype",
+  "name": "legislation",
   "version": "0.0.1",
   "description": "Parse SF Board of Supervisor meeting minutes",
-  "main": "index.js",
   "dependencies": {
     "bluebird": "^3.4.7",
     "cheerio": "^0.22.0",
@@ -18,6 +17,7 @@
     "eslint-plugin-import": "^2.2.0"
   },
   "scripts": {
+    "start": "node download-latest-agenda.js",
     "fix": "eslint . --fix",
     "test": "eslint . && node test.js"
   },

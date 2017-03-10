@@ -69,6 +69,7 @@ function processBillText(bill) {
 }
 
 module.exports = function parseAgenda(filePath) {
+  console.log(`...Parsing ${filePath}`)
   return new Promise((accept, reject) => {
     extract(filePath, (err, pages) => {
       if (err) { return reject(err) }
