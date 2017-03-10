@@ -1,7 +1,7 @@
 // Grab our .env environment variables
 require('dotenv').config({ silent: true })
 
-console.log('Connecting to db...')
+console.log('...Connecting to db')
 module.exports = function connectToDb() {
   return require('rethinkdb').connect({
     host: process.env.DB_HOST,
