@@ -16,6 +16,7 @@
     "eslint-config-airbnb-base": "^11.1.0",
     "eslint-plugin-import": "^2.2.0"
   },
+  "repository" : "liquidvote/sf-legislation",
   "scripts": {
     "start": "node index.js",
     "fix": "eslint . --fix",
