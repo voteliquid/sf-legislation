@@ -23,7 +23,7 @@ module.exports = function uploadNewBills(newJson) {
       }
 
       // Load the already parsed agenda
-      const agenda = require(`./json/${newJson}.js`) // eslint-disable-line import/no-dynamic-require
+      const agenda = require(`../json/${newJson}.js`) // eslint-disable-line import/no-dynamic-require
 
       // Remove fields with value = 'undefined',
       // such as { sponsor: undefined }.
