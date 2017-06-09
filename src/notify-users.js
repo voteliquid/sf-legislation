@@ -1,8 +1,9 @@
 // Notify users that a new agenda has been released
 
+require('dotenv').config()
 const r = require('rethinkdb')
 const twilio = require('twilio')
-require('dotenv').config()
+const Promise = require('bluebird')
 
 const client = new twilio.RestClient(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_AUTH_TOKEN)
 
@@ -30,18 +31,14 @@ module.exports = function notifyUsers() {
       const name = last_name ? `${first_name} ${last_name}` : phone
       console.log(`Notifying ${name}`)
 
-      return client.messages.create({
-        body: 'The new San Francisco legislative agenda has been released: http://liquid.vote/sf.',
+      return Promise.fromCallback(cb => client.messages.create({
+        body: 'The new San Francisco legislative agenda has been released: http://liquid.vote/sf',
         from: `+1${process.env.TWILIO_NUMBER}`,
-        to: `+1${user.phone}`,  // Text this number
-      }, (err) => {
-        if (err) {
-          return console.error(err)
-        }
-      })
+        to: `+1${phone}`,  // Text this number
+      }, cb))
     })
   ))
-  // .then(process.exit)
+  .then(process.exit)
 }
 
 module.exports()
