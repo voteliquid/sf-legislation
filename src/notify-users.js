@@ -26,7 +26,9 @@ module.exports = function notifyUsers() {
 
     // Send each user a text message
     .map((user) => {
-      console.log(`Notifying ${user.first_name} ${user.last_name}`)
+      const { first_name, last_name, phone } = user
+      const name = last_name ? `${first_name} ${last_name}` : phone
+      console.log(`Notifying ${name}`)
 
       return client.messages.create({
         body: 'The new San Francisco legislative agenda has been released.',
