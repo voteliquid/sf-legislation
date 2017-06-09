@@ -31,7 +31,7 @@ module.exports = function notifyUsers() {
       console.log(`Notifying ${name}`)
 
       return client.messages.create({
-        body: 'The new San Francisco legislative agenda has been released.',
+        body: 'The new San Francisco legislative agenda has been released: http://liquid.vote/sf.',
         from: `+1${process.env.TWILIO_NUMBER}`,
         to: `+1${user.phone}`,  // Text this number
       }, (err) => {
