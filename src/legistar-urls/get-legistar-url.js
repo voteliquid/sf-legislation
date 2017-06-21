@@ -8,7 +8,7 @@
 const Nightmare = require('nightmare')
 
 function lookupLegistarUrl(legID) {
-  console.log(`Getting legistar URL for ${legID}\n`)
+  console.log(`\nGetting legistar URL for ${legID}`)
   return Nightmare({ show: false })
     .goto('https://sfgov.legistar.com/Legislation.aspx')
     .type('#ctl00_ContentPlaceHolder1_txtSearch', legID)
@@ -22,10 +22,12 @@ function lookupLegistarUrl(legID) {
     })
     .end()
     .then(({ GUID, ID }) => `https://sfgov.legistar.com/LegislationDetail.aspx?ID=${ID}&GUID=${GUID}&Options=ID|Text|`)
-    .catch((error) => {
-      console.error('Search failed:', error)
-    })
+    // .catch((error) => {
+    //   console.error('Search failed:', error)
+    // })
 }
 
-lookupLegistarUrl(170323)
-  .then(console.log)
+module.exports = lookupLegistarUrl
+
+// lookupLegistarUrl(170323)
+//   .then(console.log)
