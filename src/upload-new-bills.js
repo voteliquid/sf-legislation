@@ -9,7 +9,7 @@ module.exports = function uploadNewBills(newJson) {
 
   require('./connect-to-db')().then(dbConn => (
 
-    r.table('bills').run(dbConn).call('toArray')
+    r.table('bills').filter({ legislature: 'san_francisco' }).run(dbConn).call('toArray')
     .then((bills) => {
 
       // Get unique dates already uploaded

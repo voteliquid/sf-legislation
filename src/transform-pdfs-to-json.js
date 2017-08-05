@@ -9,6 +9,7 @@ module.exports = function transformPdfsToJson(arrayOfDatesToParse) {
       require('./parse-agenda-pdf')(`./pdfs/bag${date}_agenda.pdf`)
       .map(bill => Object.assign(bill, {
         date: convertDateString(date),
+        legislature: 'san_francisco',
         source_doc: `bag${date}_agenda.pdf`,
         uid: `${convertDateString(date)}-${bill.id}`,
       }))

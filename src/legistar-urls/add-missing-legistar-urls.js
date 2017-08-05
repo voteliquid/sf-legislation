@@ -10,6 +10,9 @@ function findBillsWithoutLegistar() {
 
     r.table('bills')
 
+    // Only get 'san_francisco' bills
+    .filter({ legislature: 'san_francisco' })
+
     // Only get bills from 2017 (need to tweak Nightmare search for past years)
     .filter(row => (row('date').ge('2017')))
 
