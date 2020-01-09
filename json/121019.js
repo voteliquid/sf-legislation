@@ -12,7 +12,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191011'
+    uid: '2019-12-10-191011',
   },
   {
     itemNumber: 2,
@@ -26,7 +26,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191014'
+    uid: '2019-12-10-191014',
   },
   {
     itemNumber: 3,
@@ -40,7 +40,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191012'
+    uid: '2019-12-10-191012',
   },
   {
     itemNumber: 4,
@@ -54,7 +54,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191015'
+    uid: '2019-12-10-191015',
   },
   {
     itemNumber: 5,
@@ -68,7 +68,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191060'
+    uid: '2019-12-10-191060',
   },
   {
     itemNumber: 6,
@@ -82,7 +82,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191061'
+    uid: '2019-12-10-191061',
   },
   {
     itemNumber: 7,
@@ -96,7 +96,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191063'
+    uid: '2019-12-10-191063',
   },
   {
     itemNumber: 8,
@@ -110,7 +110,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-190756'
+    uid: '2019-12-10-190756',
   },
   {
     itemNumber: 9,
@@ -124,7 +124,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191013'
+    uid: '2019-12-10-191013',
   },
   {
     itemNumber: 10,
@@ -138,7 +138,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191033'
+    uid: '2019-12-10-191033',
   },
   {
     itemNumber: 11,
@@ -152,7 +152,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191098'
+    uid: '2019-12-10-191098',
   },
   {
     itemNumber: 12,
@@ -166,7 +166,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191110'
+    uid: '2019-12-10-191110',
   },
   {
     itemNumber: 13,
@@ -180,29 +180,29 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191111'
+    uid: '2019-12-10-191111',
   },
   {
     itemNumber: 14,
     id: 191102,
     title: 'Health, Administrative Codes - City-Operated Adult Residential Facility',
     sponsors: [
-      'Ronen, Haney, Walton, Peskin, Mar, Mandelman, Brown, Safai and Yee'
+      'Ronen, Haney, Walton, Peskin, Mar, Mandelman, Brown, Safai and Yee',
     ],
     text: 'Ordinance amending the Health Code to require the Department of Public Health to maintain and operate at full capacity an adult residential facility (“ARF”) with no fewer than 41 beds; and amending the Administrative Code to establish the Adult Residential Facility Working Group to advise the Board of Supervisors and the Mayor regarding resident care, training, workplace conditions, and staffing at the ARF located at 887 Potrero Avenue.',
     fiscalImpact: false,
     statusLog: [
       {
         date: '10/29/2019',
-        status: 'RE-REFERRED to the Government Audit and Oversight Committee.'
+        status: 'RE-REFERRED to the Government Audit and Oversight Committee.',
       },
-      { date: '10/29/2019', status: 'DUPLICATED.' }
+      { date: '10/29/2019', status: 'DUPLICATED.' },
     ],
     question: 'Question: Shall this Ordinance be PASSED ON FIRST READING?',
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191102'
+    uid: '2019-12-10-191102',
   },
   {
     itemNumber: 15,
@@ -216,7 +216,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-190767'
+    uid: '2019-12-10-190767',
   },
   {
     itemNumber: 16,
@@ -230,7 +230,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191064'
+    uid: '2019-12-10-191064',
   },
   {
     itemNumber: 17,
@@ -244,7 +244,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191065'
+    uid: '2019-12-10-191065',
   },
   {
     itemNumber: 18,
@@ -258,7 +258,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191066'
+    uid: '2019-12-10-191066',
   },
   {
     itemNumber: 19,
@@ -272,7 +272,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191067'
+    uid: '2019-12-10-191067',
   },
   {
     itemNumber: 20,
@@ -286,7 +286,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191068'
+    uid: '2019-12-10-191068',
   },
   {
     itemNumber: 21,
@@ -300,7 +300,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191130'
+    uid: '2019-12-10-191130',
   },
   {
     itemNumber: 22,
@@ -308,7 +308,7 @@ module.exports =
     title: 'Establishing Vision Zero on Homicides and Violent Crimes Plan',
     sponsors: [
       'Walton',
-      'Haney, Mar, Brown, Mandelman, Ronen, Stefani, Peskin and Safai'
+      'Haney, Mar, Brown, Mandelman, Ronen, Stefani, Peskin and Safai',
     ],
     text: 'Resolution establishing the creation of a Vision Zero on Homicides and Violent Crimes Plan for neighborhoods most impacted by violence, and urging City departments to implement strategies to achieve the plan.',
     fiscalImpact: false,
@@ -317,7 +317,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-190856'
+    uid: '2019-12-10-190856',
   },
   {
     itemNumber: 23,
@@ -331,7 +331,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191032'
+    uid: '2019-12-10-191032',
   },
   {
     itemNumber: 24,
@@ -345,7 +345,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-190869'
+    uid: '2019-12-10-190869',
   },
   {
     itemNumber: 25,
@@ -359,7 +359,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-190926'
+    uid: '2019-12-10-190926',
   },
   {
     itemNumber: 26,
@@ -367,7 +367,7 @@ module.exports =
     title: 'Administrative Code - Right to Affordable Housing Unit in a Revitalized Housing Development',
     sponsors: [
       'Mayor',
-      'Walton, Mar, Safai, Ronen, Haney, Stefani, Yee, Brown, Fewer and Peskin'
+      'Walton, Mar, Safai, Ronen, Haney, Stefani, Yee, Brown, Fewer and Peskin',
     ],
     text: 'Ordinance amending the Administrative Code to clarify the right of current households to occupy replacement housing units, provide a priority to former households of an existing public housing development to return to a revitalized housing development, and provide a priority to current and former households of an existing public housing development to occupy a new affordable housing unit.',
     fiscalImpact: false,
@@ -376,7 +376,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191000'
+    uid: '2019-12-10-191000',
   },
   {
     itemNumber: 27,
@@ -390,7 +390,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191105'
+    uid: '2019-12-10-191105',
   },
   {
     itemNumber: 28,
@@ -404,7 +404,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191174'
+    uid: '2019-12-10-191174',
   },
   {
     itemNumber: 29,
@@ -418,7 +418,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191095'
+    uid: '2019-12-10-191095',
   },
   {
     itemNumber: 30,
@@ -432,7 +432,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191146'
+    uid: '2019-12-10-191146',
   },
   {
     itemNumber: 31,
@@ -446,7 +446,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191193'
+    uid: '2019-12-10-191193',
   },
   {
     itemNumber: 32,
@@ -460,7 +460,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191196'
+    uid: '2019-12-10-191196',
   },
   {
     itemNumber: 33,
@@ -474,7 +474,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191198'
+    uid: '2019-12-10-191198',
   },
   {
     itemNumber: 34,
@@ -488,7 +488,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191199'
+    uid: '2019-12-10-191199',
   },
   {
     itemNumber: 35,
@@ -502,7 +502,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191200'
+    uid: '2019-12-10-191200',
   },
   {
     itemNumber: 36,
@@ -516,7 +516,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-190970'
+    uid: '2019-12-10-190970',
   },
   {
     itemNumber: 37,
@@ -530,7 +530,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-190971'
+    uid: '2019-12-10-190971',
   },
   {
     itemNumber: 38,
@@ -538,7 +538,7 @@ module.exports =
     title: 'Administrative Code - Mental Health SF',
     sponsors: [
       'Mayor',
-      'Ronen, Haney, Mar, Walton, Yee, Brown, Safai, Fewer, Peskin, Mandelman and Stefani'
+      'Ronen, Haney, Mar, Walton, Yee, Brown, Safai, Fewer, Peskin, Mandelman and Stefani',
     ],
     text: 'Ordinance amending the Administrative Code to establish Mental Health SF, a mental health program designed to provide access to mental health services, substance use treatment, and psychiatric medications to all adult residents of San Francisco with mental illness and/or substance use disorders who are homeless, uninsured, or enrolled in Medi-Cal or Healthy San Francisco; to establish an Office of Private Health Insurance Accountability to advocate on behalf of privately insured individuals not receiving timely and appropriate mental health care under their private health insurance; to provide that Mental Health SF shall not become operative until either the City’s budget has exceeded the prior year’s budget by 13%, or the voters have approved a tax that will sufficiently finance the program, or the Board of Supervisors has approved the appropriation of general funds to finance the program; and to establish the Mental Health SF Implementation Working Group to advise the Mental Health Board, the Department of Public Health, the Health Commission, the San Francisco Health Authority, and the Board of Supervisors on the design and implementation of Mental Health SF.',
     fiscalImpact: true,
@@ -547,7 +547,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191148'
+    uid: '2019-12-10-191148',
   },
   {
     itemNumber: 39,
@@ -561,7 +561,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191131'
+    uid: '2019-12-10-191131',
   },
   {
     itemNumber: 40,
@@ -575,7 +575,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191140'
+    uid: '2019-12-10-191140',
   },
   {
     itemNumber: 41,
@@ -589,7 +589,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191151'
+    uid: '2019-12-10-191151',
   },
   {
     itemNumber: 42,
@@ -603,7 +603,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191138'
+    uid: '2019-12-10-191138',
   },
   {
     itemNumber: 43,
@@ -617,7 +617,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-190973'
+    uid: '2019-12-10-190973',
   },
   {
     itemNumber: 44,
@@ -631,7 +631,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191016'
+    uid: '2019-12-10-191016',
   },
   {
     itemNumber: 45,
@@ -645,7 +645,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191017'
+    uid: '2019-12-10-191017',
   },
   {
     itemNumber: 46,
@@ -659,7 +659,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191106'
+    uid: '2019-12-10-191106',
   },
   {
     itemNumber: 47,
@@ -673,7 +673,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191107'
+    uid: '2019-12-10-191107',
   },
   {
     itemNumber: 48,
@@ -687,7 +687,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191085'
+    uid: '2019-12-10-191085',
   },
   {
     itemNumber: 49,
@@ -701,7 +701,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191072'
+    uid: '2019-12-10-191072',
   },
   {
     itemNumber: 50,
@@ -715,7 +715,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191088'
+    uid: '2019-12-10-191088',
   },
   {
     itemNumber: 54,
@@ -729,7 +729,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191228'
+    uid: '2019-12-10-191228',
   },
   {
     itemNumber: 55,
@@ -743,7 +743,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191188'
+    uid: '2019-12-10-191188',
   },
   {
     itemNumber: 56,
@@ -757,7 +757,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191225'
+    uid: '2019-12-10-191225',
   },
   {
     itemNumber: 57,
@@ -771,7 +771,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191202'
+    uid: '2019-12-10-191202',
   },
   {
     itemNumber: 58,
@@ -785,7 +785,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191226'
+    uid: '2019-12-10-191226',
   },
   {
     itemNumber: 59,
@@ -799,7 +799,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191214'
+    uid: '2019-12-10-191214',
   },
   {
     itemNumber: 60,
@@ -813,7 +813,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191215'
+    uid: '2019-12-10-191215',
   },
   {
     itemNumber: 61,
@@ -827,7 +827,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191216'
+    uid: '2019-12-10-191216',
   },
   {
     itemNumber: 62,
@@ -841,7 +841,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191217'
+    uid: '2019-12-10-191217',
   },
   {
     itemNumber: 63,
@@ -855,7 +855,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191218'
+    uid: '2019-12-10-191218',
   },
   {
     itemNumber: 64,
@@ -869,7 +869,7 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191219'
+    uid: '2019-12-10-191219',
   },
   {
     itemNumber: 65,
@@ -883,6 +883,6 @@ module.exports =
     date: '2019-12-10',
     legislature: 'san_francisco',
     source_doc: 'bag121019_agenda.pdf',
-    uid: '2019-12-10-191220'
-  }
+    uid: '2019-12-10-191220',
+  },
 ]

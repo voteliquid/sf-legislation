@@ -12,6 +12,6 @@ module.exports =
     date: '2019-11-21',
     legislature: 'san_francisco',
     source_doc: 'bag112119_agenda.pdf',
-    uid: '2019-11-21-191005'
-  }
+    uid: '2019-11-21-191005',
+  },
 ]

@@ -12,7 +12,7 @@ module.exports =
     date: '2020-01-07',
     legislature: 'san_francisco',
     source_doc: 'bag010720_agenda.pdf',
-    uid: '2020-01-07-190681'
+    uid: '2020-01-07-190681',
   },
   {
     itemNumber: 2,
@@ -26,7 +26,7 @@ module.exports =
     date: '2020-01-07',
     legislature: 'san_francisco',
     source_doc: 'bag010720_agenda.pdf',
-    uid: '2020-01-07-190682'
+    uid: '2020-01-07-190682',
   },
   {
     itemNumber: 3,
@@ -40,7 +40,7 @@ module.exports =
     date: '2020-01-07',
     legislature: 'san_francisco',
     source_doc: 'bag010720_agenda.pdf',
-    uid: '2020-01-07-190974'
+    uid: '2020-01-07-190974',
   },
   {
     itemNumber: 4,
@@ -54,7 +54,7 @@ module.exports =
     date: '2020-01-07',
     legislature: 'san_francisco',
     source_doc: 'bag010720_agenda.pdf',
-    uid: '2020-01-07-191137'
+    uid: '2020-01-07-191137',
   },
   {
     itemNumber: 5,
@@ -68,7 +68,7 @@ module.exports =
     date: '2020-01-07',
     legislature: 'san_francisco',
     source_doc: 'bag010720_agenda.pdf',
-    uid: '2020-01-07-191125'
+    uid: '2020-01-07-191125',
   },
   {
     itemNumber: 6,
@@ -82,7 +82,7 @@ module.exports =
     date: '2020-01-07',
     legislature: 'san_francisco',
     source_doc: 'bag010720_agenda.pdf',
-    uid: '2020-01-07-190355'
+    uid: '2020-01-07-190355',
   },
   {
     itemNumber: 7,
@@ -96,7 +96,7 @@ module.exports =
     date: '2020-01-07',
     legislature: 'san_francisco',
     source_doc: 'bag010720_agenda.pdf',
-    uid: '2020-01-07-191062'
+    uid: '2020-01-07-191062',
   },
   {
     itemNumber: 8,
@@ -110,7 +110,7 @@ module.exports =
     date: '2020-01-07',
     legislature: 'san_francisco',
     source_doc: 'bag010720_agenda.pdf',
-    uid: '2020-01-07-190984'
+    uid: '2020-01-07-190984',
   },
   {
     itemNumber: 9,
@@ -124,7 +124,7 @@ module.exports =
     date: '2020-01-07',
     legislature: 'san_francisco',
     source_doc: 'bag010720_agenda.pdf',
-    uid: '2020-01-07-191187'
+    uid: '2020-01-07-191187',
   },
   {
     itemNumber: 10,
@@ -138,7 +138,7 @@ module.exports =
     date: '2020-01-07',
     legislature: 'san_francisco',
     source_doc: 'bag010720_agenda.pdf',
-    uid: '2020-01-07-191195'
+    uid: '2020-01-07-191195',
   },
   {
     itemNumber: 11,
@@ -152,7 +152,7 @@ module.exports =
     date: '2020-01-07',
     legislature: 'san_francisco',
     source_doc: 'bag010720_agenda.pdf',
-    uid: '2020-01-07-191275'
+    uid: '2020-01-07-191275',
   },
   {
     itemNumber: 12,
@@ -166,7 +166,7 @@ module.exports =
     date: '2020-01-07',
     legislature: 'san_francisco',
     source_doc: 'bag010720_agenda.pdf',
-    uid: '2020-01-07-191277'
+    uid: '2020-01-07-191277',
   },
   {
     itemNumber: 15,
@@ -180,6 +180,6 @@ module.exports =
     date: '2020-01-07',
     legislature: 'san_francisco',
     source_doc: 'bag010720_agenda.pdf',
-    uid: '2020-01-07-191301'
-  }
+    uid: '2020-01-07-191301',
+  },
 ]

@@ -12,7 +12,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-190842'
+    uid: '2019-11-19-190842',
   },
   {
     itemNumber: 2,
@@ -26,7 +26,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-190927'
+    uid: '2019-11-19-190927',
   },
   {
     itemNumber: 3,
@@ -40,7 +40,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191001'
+    uid: '2019-11-19-191001',
   },
   {
     itemNumber: 4,
@@ -54,7 +54,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-190994'
+    uid: '2019-11-19-190994',
   },
   {
     itemNumber: 5,
@@ -68,7 +68,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191070'
+    uid: '2019-11-19-191070',
   },
   {
     itemNumber: 6,
@@ -82,7 +82,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191071'
+    uid: '2019-11-19-191071',
   },
   {
     itemNumber: 7,
@@ -94,19 +94,19 @@ module.exports =
     statusLog: [
       {
         date: '11/12/2019',
-        status: 'PASSED ON FIRST READING AS AMENDED.'
+        status: 'PASSED ON FIRST READING AS AMENDED.',
       },
       {
         date: '11/12/2019',
-        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.'
+        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.',
       },
-      { date: '11/05/2019', status: 'CONTINUED ON FIRST READING.' }
+      { date: '11/05/2019', status: 'CONTINUED ON FIRST READING.' },
     ],
     question: 'Question: Shall this Ordinance be FINALLY PASSED?',
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-190844'
+    uid: '2019-11-19-190844',
   },
   {
     itemNumber: 8,
@@ -118,19 +118,19 @@ module.exports =
     statusLog: [
       {
         date: '11/12/2019',
-        status: 'PASSED ON FIRST READING AS AMENDED.'
+        status: 'PASSED ON FIRST READING AS AMENDED.',
       },
       {
         date: '11/12/2019',
-        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.'
+        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.',
       },
-      { date: '11/05/2019', status: 'CONTINUED ON FIRST READING.' }
+      { date: '11/05/2019', status: 'CONTINUED ON FIRST READING.' },
     ],
     question: 'Question: Shall this Ordinance be FINALLY PASSED?',
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-190845'
+    uid: '2019-11-19-190845',
   },
   {
     itemNumber: 9,
@@ -142,19 +142,19 @@ module.exports =
     statusLog: [
       {
         date: '11/12/2019',
-        status: 'PASSED ON FIRST READING AS AMENDED.'
+        status: 'PASSED ON FIRST READING AS AMENDED.',
       },
       {
         date: '11/12/2019',
-        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.'
+        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.',
       },
-      { date: '11/05/2019', status: 'CONTINUED ON FIRST READING.' }
+      { date: '11/05/2019', status: 'CONTINUED ON FIRST READING.' },
     ],
     question: 'Question: Shall this Ordinance be FINALLY PASSED?',
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-190947'
+    uid: '2019-11-19-190947',
   },
   {
     itemNumber: 10,
@@ -168,7 +168,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191014'
+    uid: '2019-11-19-191014',
   },
   {
     itemNumber: 11,
@@ -182,7 +182,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191011'
+    uid: '2019-11-19-191011',
   },
   {
     itemNumber: 12,
@@ -196,7 +196,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191019'
+    uid: '2019-11-19-191019',
   },
   {
     itemNumber: 13,
@@ -210,7 +210,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191012'
+    uid: '2019-11-19-191012',
   },
   {
     itemNumber: 14,
@@ -224,7 +224,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191015'
+    uid: '2019-11-19-191015',
   },
   {
     itemNumber: 15,
@@ -238,7 +238,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-190996'
+    uid: '2019-11-19-190996',
   },
   {
     itemNumber: 16,
@@ -252,7 +252,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191021'
+    uid: '2019-11-19-191021',
   },
   {
     itemNumber: 17,
@@ -266,7 +266,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191047'
+    uid: '2019-11-19-191047',
   },
   {
     itemNumber: 18,
@@ -280,7 +280,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191048'
+    uid: '2019-11-19-191048',
   },
   {
     itemNumber: 19,
@@ -294,7 +294,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191050'
+    uid: '2019-11-19-191050',
   },
   {
     itemNumber: 20,
@@ -308,7 +308,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191080'
+    uid: '2019-11-19-191080',
   },
   {
     itemNumber: 21,
@@ -322,7 +322,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191081'
+    uid: '2019-11-19-191081',
   },
   {
     itemNumber: 22,
@@ -336,7 +336,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191108'
+    uid: '2019-11-19-191108',
   },
   {
     itemNumber: 23,
@@ -350,7 +350,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191109'
+    uid: '2019-11-19-191109',
   },
   {
     itemNumber: 24,
@@ -364,7 +364,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191113'
+    uid: '2019-11-19-191113',
   },
   {
     itemNumber: 25,
@@ -378,7 +378,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191114'
+    uid: '2019-11-19-191114',
   },
   {
     itemNumber: 26,
@@ -392,7 +392,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191115'
+    uid: '2019-11-19-191115',
   },
   {
     itemNumber: 27,
@@ -406,7 +406,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191116'
+    uid: '2019-11-19-191116',
   },
   {
     itemNumber: 28,
@@ -420,7 +420,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191024'
+    uid: '2019-11-19-191024',
   },
   {
     itemNumber: 29,
@@ -434,7 +434,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191076'
+    uid: '2019-11-19-191076',
   },
   {
     itemNumber: 30,
@@ -448,7 +448,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191077'
+    uid: '2019-11-19-191077',
   },
   {
     itemNumber: 31,
@@ -462,7 +462,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191078'
+    uid: '2019-11-19-191078',
   },
   {
     itemNumber: 32,
@@ -476,7 +476,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191079'
+    uid: '2019-11-19-191079',
   },
   {
     itemNumber: 33,
@@ -490,7 +490,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-190983'
+    uid: '2019-11-19-190983',
   },
   {
     itemNumber: 34,
@@ -504,7 +504,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191082'
+    uid: '2019-11-19-191082',
   },
   {
     itemNumber: 35,
@@ -518,7 +518,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191084'
+    uid: '2019-11-19-191084',
   },
   {
     itemNumber: 36,
@@ -532,7 +532,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191086'
+    uid: '2019-11-19-191086',
   },
   {
     itemNumber: 37,
@@ -546,7 +546,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191083'
+    uid: '2019-11-19-191083',
   },
   {
     itemNumber: 38,
@@ -560,7 +560,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191087'
+    uid: '2019-11-19-191087',
   },
   {
     itemNumber: 39,
@@ -574,7 +574,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-190756'
+    uid: '2019-11-19-190756',
   },
   {
     itemNumber: 40,
@@ -588,7 +588,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-190888'
+    uid: '2019-11-19-190888',
   },
   {
     itemNumber: 41,
@@ -602,7 +602,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-190923'
+    uid: '2019-11-19-190923',
   },
   {
     itemNumber: 42,
@@ -616,7 +616,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-190924'
+    uid: '2019-11-19-190924',
   },
   {
     itemNumber: 43,
@@ -630,7 +630,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191029'
+    uid: '2019-11-19-191029',
   },
   {
     itemNumber: 44,
@@ -644,7 +644,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191112'
+    uid: '2019-11-19-191112',
   },
   {
     itemNumber: 45,
@@ -658,7 +658,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191126'
+    uid: '2019-11-19-191126',
   },
   {
     itemNumber: 46,
@@ -672,7 +672,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191127'
+    uid: '2019-11-19-191127',
   },
   {
     itemNumber: 47,
@@ -686,7 +686,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191128'
+    uid: '2019-11-19-191128',
   },
   {
     itemNumber: 48,
@@ -700,7 +700,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191129'
+    uid: '2019-11-19-191129',
   },
   {
     itemNumber: 49,
@@ -714,7 +714,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191005'
+    uid: '2019-11-19-191005',
   },
   {
     itemNumber: 50,
@@ -728,7 +728,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191034'
+    uid: '2019-11-19-191034',
   },
   {
     itemNumber: 53,
@@ -742,7 +742,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191153'
+    uid: '2019-11-19-191153',
   },
   {
     itemNumber: 54,
@@ -756,7 +756,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191154'
+    uid: '2019-11-19-191154',
   },
   {
     itemNumber: 55,
@@ -770,7 +770,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191155'
+    uid: '2019-11-19-191155',
   },
   {
     itemNumber: 56,
@@ -778,7 +778,7 @@ module.exports =
     title: 'World Children’s Day - November 20, 2019 - Affirming San Francisco’s Commitment to the United Nations Convention of the Rights of Children',
     sponsors: [
       'Yee',
-      'Haney, Fewer, Peskin, Stefani, Brown, Mar, Mandelman and Ronen'
+      'Haney, Fewer, Peskin, Stefani, Brown, Mar, Mandelman and Ronen',
     ],
     text: 'Resolution declaring November 20, 2019, World Children’s Day in the City and County of San Francisco, and affirming the City and County’s commitment to the United Nations Convention of the Rights of Children. 11/13/2019; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD MEETING.',
     fiscalImpact: false,
@@ -787,7 +787,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191158'
+    uid: '2019-11-19-191158',
   },
   {
     itemNumber: 57,
@@ -801,7 +801,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191141'
+    uid: '2019-11-19-191141',
   },
   {
     itemNumber: 58,
@@ -815,7 +815,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191142'
+    uid: '2019-11-19-191142',
   },
   {
     itemNumber: 59,
@@ -829,7 +829,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191143'
+    uid: '2019-11-19-191143',
   },
   {
     itemNumber: 60,
@@ -843,7 +843,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191144'
+    uid: '2019-11-19-191144',
   },
   {
     itemNumber: 61,
@@ -857,7 +857,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191145'
+    uid: '2019-11-19-191145',
   },
   {
     itemNumber: 62,
@@ -871,7 +871,7 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191147'
+    uid: '2019-11-19-191147',
   },
   {
     itemNumber: 63,
@@ -885,6 +885,6 @@ module.exports =
     date: '2019-11-19',
     legislature: 'san_francisco',
     source_doc: 'bag111919_agenda.pdf',
-    uid: '2019-11-19-191159'
-  }
+    uid: '2019-11-19-191159',
+  },
 ]

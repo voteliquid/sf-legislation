@@ -12,7 +12,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191013'
+    uid: '2019-12-17-191013',
   },
   {
     itemNumber: 2,
@@ -20,7 +20,7 @@ module.exports =
     title: 'Administrative Code - Mental Health SF',
     sponsors: [
       'Mayor',
-      'Ronen, Haney, Mar, Walton, Yee, Brown, Safai, Fewer, Peskin, Mandelman and Stefani'
+      'Ronen, Haney, Mar, Walton, Yee, Brown, Safai, Fewer, Peskin, Mandelman and Stefani',
     ],
     text: 'Ordinance amending the Administrative Code to establish Mental Health SF, a mental health program designed to provide access to mental health services, substance use treatment, and psychiatric medications to all adult residents of San Francisco with mental illness and/or substance use disorders who are homeless, uninsured, or enrolled in Medi-Cal or Healthy San Francisco; to establish an Office of Private Health Insurance Accountability to advocate on behalf of privately insured individuals not receiving timely and appropriate mental health care under their private health insurance; to provide that Mental Health SF shall not become operative until either the City’s budget has exceeded the prior year’s budget by 13%, or the voters have approved a tax that will sufficiently finance the program, or the Board of Supervisors has approved the appropriation of general funds to finance the program; and to establish the Mental Health SF Implementation Working Group to advise the Mental Health Board, the Department of Public Health, the Health Commission, the San Francisco Health Authority, and the Board of Supervisors on the design and implementation of Mental Health SF.',
     fiscalImpact: true,
@@ -29,7 +29,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191148'
+    uid: '2019-12-17-191148',
   },
   {
     itemNumber: 3,
@@ -43,7 +43,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191060'
+    uid: '2019-12-17-191060',
   },
   {
     itemNumber: 4,
@@ -57,7 +57,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191061'
+    uid: '2019-12-17-191061',
   },
   {
     itemNumber: 5,
@@ -71,7 +71,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191138'
+    uid: '2019-12-17-191138',
   },
   {
     itemNumber: 6,
@@ -85,7 +85,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191017'
+    uid: '2019-12-17-191017',
   },
   {
     itemNumber: 7,
@@ -99,7 +99,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191106'
+    uid: '2019-12-17-191106',
   },
   {
     itemNumber: 8,
@@ -113,7 +113,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191107'
+    uid: '2019-12-17-191107',
   },
   {
     itemNumber: 9,
@@ -127,7 +127,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-190869'
+    uid: '2019-12-17-190869',
   },
   {
     itemNumber: 10,
@@ -135,7 +135,7 @@ module.exports =
     title: 'Administrative Code - Right to Affordable Housing Unit in a Revitalized Housing Development',
     sponsors: [
       'Mayor',
-      'Walton, Mar, Safai, Ronen, Haney, Stefani, Yee, Brown, Fewer, Peskin and Mandelman'
+      'Walton, Mar, Safai, Ronen, Haney, Stefani, Yee, Brown, Fewer, Peskin and Mandelman',
     ],
     text: 'Ordinance amending the Administrative Code to clarify the right of current households to occupy replacement housing units, provide a priority to former households of an existing public housing development to return to a revitalized housing development, and provide a priority to current and former households of an existing public housing development to occupy a new affordable housing unit.',
     fiscalImpact: false,
@@ -144,7 +144,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191000'
+    uid: '2019-12-17-191000',
   },
   {
     itemNumber: 11,
@@ -158,7 +158,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191105'
+    uid: '2019-12-17-191105',
   },
   {
     itemNumber: 12,
@@ -172,7 +172,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191174'
+    uid: '2019-12-17-191174',
   },
   {
     itemNumber: 13,
@@ -180,55 +180,55 @@ module.exports =
     title: 'Administrative, Public Works, Police Codes - Establishing Office of Emerging Technology - Requiring Permits for Using Emerging Technology Devices on Public Right-of-Ways',
     sponsors: [
       'Yee',
-      'Fewer, Peskin, Walton, Safai, Ronen, Brown, Stefani, Mar and Mandelman'
+      'Fewer, Peskin, Walton, Safai, Ronen, Brown, Stefani, Mar and Mandelman',
     ],
     text: 'Ordinance amending the Administrative Code to create an Office of Emerging Technology within Public Works; amending the Public Works Code to require a permit to obstruct the public right-of-way within Public Works’ jurisdiction; amending the Administrative Code to codify the Public Works Director’s authority to take official actions, as defined herein, including adopting regulations for the pilot operation of emerging technology devices; amending the Public Works Code and Police Code to provide for administrative, civil, and criminal penalties for unlawful obstruction of the public right-of-way, including operation of emerging technology devices without a required permit; and affirming the Planning Department’s determination under the California Environmental Quality Act.',
     fiscalImpact: true,
     statusLog: [
       {
         date: '12/10/2019',
-        status: 'PASSED ON FIRST READING AS AMENDED.'
+        status: 'PASSED ON FIRST READING AS AMENDED.',
       },
       {
         date: '12/10/2019',
-        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.'
-      }
+        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.',
+      },
     ],
     question: 'Question: Shall this Ordinance be FINALLY PASSED?',
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191033'
+    uid: '2019-12-17-191033',
   },
   {
     itemNumber: 14,
     id: 191102,
     title: 'Health, Administrative Codes - City-Operated Adult Residential Facility',
     sponsors: [
-      'Ronen, Haney, Walton, Peskin, Mar, Mandelman, Brown, Safai, Yee and Fewer'
+      'Ronen, Haney, Walton, Peskin, Mar, Mandelman, Brown, Safai, Yee and Fewer',
     ],
     text: 'Ordinance amending the Health Code to require the Department of Public Health to maintain and operate at full capacity an adult residential facility (“ARF”) with no fewer than 41 beds; and amending the Administrative Code to establish the Adult Residential Facility Working Group to advise the Board of Supervisors and the Mayor regarding resident care, training, workplace conditions, and staffing at the ARF located at 887 Potrero Avenue.',
     fiscalImpact: false,
     statusLog: [
       {
         date: '12/10/2019',
-        status: 'PASSED ON FIRST READING AS AMENDED.'
+        status: 'PASSED ON FIRST READING AS AMENDED.',
       },
       {
         date: '12/10/2019',
-        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.'
+        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.',
       },
       {
         date: '10/29/2019',
-        status: 'RE-REFERRED to the Government Audit and Oversight Committee.'
+        status: 'RE-REFERRED to the Government Audit and Oversight Committee.',
       },
-      { date: '10/29/2019', status: 'DUPLICATED.' }
+      { date: '10/29/2019', status: 'DUPLICATED.' },
     ],
     question: 'Question: Shall this Ordinance be FINALLY PASSED?',
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191102'
+    uid: '2019-12-17-191102',
   },
   {
     itemNumber: 15,
@@ -239,13 +239,13 @@ module.exports =
     fiscalImpact: false,
     statusLog: [
       { date: '12/10/2019', status: 'PASSED ON FIRST READING.' },
-      { date: '12/10/2019', status: 'DUPLICATED.' }
+      { date: '12/10/2019', status: 'DUPLICATED.' },
     ],
     question: 'Question: Shall this Ordinance be FINALLY PASSED?',
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191016'
+    uid: '2019-12-17-191016',
   },
   {
     itemNumber: 16,
@@ -257,18 +257,18 @@ module.exports =
     statusLog: [
       {
         date: '12/10/2019',
-        status: 'PASSED ON FIRST READING AS AMENDED.'
+        status: 'PASSED ON FIRST READING AS AMENDED.',
       },
       {
         date: '12/10/2019',
-        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.'
-      }
+        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.',
+      },
     ],
     question: 'Question: Shall this Ordinance be FINALLY PASSED?',
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-190926'
+    uid: '2019-12-17-190926',
   },
   {
     itemNumber: 17,
@@ -280,18 +280,18 @@ module.exports =
     statusLog: [
       {
         date: '12/10/2019',
-        status: 'PASSED ON FIRST READING AS AMENDED.'
+        status: 'PASSED ON FIRST READING AS AMENDED.',
       },
       {
         date: '12/10/2019',
-        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.'
-      }
+        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.',
+      },
     ],
     question: 'Question: Shall this Ordinance be FINALLY PASSED?',
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191072'
+    uid: '2019-12-17-191072',
   },
   {
     itemNumber: 18,
@@ -305,7 +305,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191099'
+    uid: '2019-12-17-191099',
   },
   {
     itemNumber: 19,
@@ -319,7 +319,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191186'
+    uid: '2019-12-17-191186',
   },
   {
     itemNumber: 20,
@@ -331,19 +331,19 @@ module.exports =
     statusLog: [
       {
         date: '04/09/2019',
-        status: 'RE-REFERRED AS AMENDED to the Government Audit and Oversight Committee.'
+        status: 'RE-REFERRED AS AMENDED to the Government Audit and Oversight Committee.',
       },
       {
         date: '04/09/2019',
-        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.'
+        status: 'AMENDED, AN AMENDMENT OF THE WHOLE BEARING SAME TITLE.',
       },
-      { date: '04/09/2019', status: 'DUPLICATED.' }
+      { date: '04/09/2019', status: 'DUPLICATED.' },
     ],
     question: 'Question: Shall this Resolution be ADOPTED?',
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-190398'
+    uid: '2019-12-17-190398',
   },
   {
     itemNumber: 21,
@@ -357,7 +357,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191025'
+    uid: '2019-12-17-191025',
   },
   {
     itemNumber: 22,
@@ -371,7 +371,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-190974'
+    uid: '2019-12-17-190974',
   },
   {
     itemNumber: 23,
@@ -385,7 +385,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-190681'
+    uid: '2019-12-17-190681',
   },
   {
     itemNumber: 24,
@@ -399,7 +399,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-190682'
+    uid: '2019-12-17-190682',
   },
   {
     itemNumber: 25,
@@ -413,7 +413,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191223'
+    uid: '2019-12-17-191223',
   },
   {
     itemNumber: 26,
@@ -427,7 +427,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191224'
+    uid: '2019-12-17-191224',
   },
   {
     itemNumber: 27,
@@ -441,7 +441,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191173'
+    uid: '2019-12-17-191173',
   },
   {
     itemNumber: 30,
@@ -455,7 +455,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191226'
+    uid: '2019-12-17-191226',
   },
   {
     itemNumber: 31,
@@ -463,7 +463,7 @@ module.exports =
     title: 'Urging the United States Congress to Pass Legislation Providing and Expanding Family Support Visas',
     sponsors: [
       'Fewer',
-      'Ronen, Walton, Peskin, Mar, Brown, Mandelman, Haney, Stefani and Yee'
+      'Ronen, Walton, Peskin, Mar, Brown, Mandelman, Haney, Stefani and Yee',
     ],
     text: 'Resolution calling upon the United States Congress to pass legislation providing and expanding family support visas to undocumented or Temporary Protected Status recipient parents of United States citizen children or Deferred Action for Childhood Arrivals eligible children, to allow them and their children to stay and work in the United States with a path to citizenship. 12/10/2019; REFERRED FOR ADOPTION WITHOUT COMMITTEE REFERENCE AGENDA AT THE NEXT BOARD MEETING.',
     fiscalImpact: false,
@@ -472,7 +472,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191270'
+    uid: '2019-12-17-191270',
   },
   {
     itemNumber: 32,
@@ -486,7 +486,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191271'
+    uid: '2019-12-17-191271',
   },
   {
     itemNumber: 33,
@@ -500,7 +500,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191272'
+    uid: '2019-12-17-191272',
   },
   {
     itemNumber: 34,
@@ -514,7 +514,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191274'
+    uid: '2019-12-17-191274',
   },
   {
     itemNumber: 35,
@@ -528,7 +528,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191242'
+    uid: '2019-12-17-191242',
   },
   {
     itemNumber: 36,
@@ -542,7 +542,7 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191243'
+    uid: '2019-12-17-191243',
   },
   {
     itemNumber: 37,
@@ -556,6 +556,6 @@ module.exports =
     date: '2019-12-17',
     legislature: 'san_francisco',
     source_doc: 'bag121719_agenda.pdf',
-    uid: '2019-12-17-191244'
-  }
+    uid: '2019-12-17-191244',
+  },
 ]
