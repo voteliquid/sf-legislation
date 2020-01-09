@@ -34,10 +34,18 @@ function processBillText(bill) {
   // Find sponsor lines
   const startOfSponsors = /^Sponsors?: /
   if (remainingLines.some(line => startOfSponsors.test(line))) {
-    const startOfDescription = /^(Ordinance|Motion|Resolution|Hearing|Proposed|Budget and Appropriation Ordinance|Urgency ordinance) /
+    const startOfDescription = /^(Ordinance|Motion|Resolution|Hearing|Proposed|Budget and Appropriation Ordinance|Urgency ordinance|Charter Amendment) /
     const sponsorLines = []
-    while (!startOfDescription.test(remainingLines[0])) {
-      sponsorLines.push(remainingLines.shift().trim())
+    try {
+      while (!startOfDescription.test(remainingLines[0])) {
+        sponsorLines.push(remainingLines.shift().trim())
+      }
+    } catch (e) {
+      console.log('\nError on this item:')
+      console.log('(Probably need to add first word(s) after sponsor line to startOfDescription list)\n')
+      console.log(billObj)
+      console.log(sponsorLines)
+      throw e
     }
     billObj.sponsors = sponsorLines.join(' ').split(': ')[1].split('; ')
   }
