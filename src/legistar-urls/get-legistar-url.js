@@ -12,6 +12,7 @@ function lookupLegistarUrl(legID) {
   return Nightmare({ show: false })
     .goto('https://sfgov.legistar.com/Legislation.aspx')
     .type('#ctl00_ContentPlaceHolder1_txtSearch', legID)
+    .select('#ctl00_ContentPlaceHolder1_lstYears_ClientState', '{"logEntries":[],"value":"All","text":"All Years","enabled":true,"checkedIndices":[],"checkedItemsTextOverflows":false}')
     .click('#visibleSearchButton')
     .wait('#ctl00_ContentPlaceHolder1_gridMain_ctl00_ctl04_hypFile')
     .evaluate(() => {
