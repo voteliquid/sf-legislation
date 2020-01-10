@@ -36,7 +36,7 @@ function findBillsWithoutLegistar() {
       .then(() => console.log(`${count--}. Updated ${bill.uid}`)) // eslint-disable-line no-plusplus
     ), { concurrency: 5 })
   ))
-  // .then(process.exit)
+  .then(process.exit)
 }
 
 findBillsWithoutLegistar()
