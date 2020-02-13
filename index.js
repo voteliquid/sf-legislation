@@ -11,3 +11,6 @@ require('./src/download-latest-agenda.js')()
 
 // 3. Upload to api.liquid.vote
 .then(newJson => require('./src/upload-new-bills.js')(newJson[0]))
+
+// 4. Download legistar URLs
+.then(() => require('./src/legistar-urls/add-missing-legistar-urls.js'))

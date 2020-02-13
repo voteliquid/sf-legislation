@@ -7,7 +7,7 @@ const convertDateString = require('./convert-date-string')
 module.exports = function uploadNewBills(newJson) {
   console.log('\n...Uploading bills to api.liquid.vote')
 
-  require('./connect-to-db')().then(dbConn => (
+  return require('./connect-to-db')().then(dbConn => (
 
     r.table('bills').filter({ legislature: 'san_francisco' }).run(dbConn).call('toArray')
     .then((bills) => {
@@ -35,5 +35,4 @@ module.exports = function uploadNewBills(newJson) {
         .then(results => console.log(convertedDateString, results))
     })
   ))
-  .then(process.exit)
 }
