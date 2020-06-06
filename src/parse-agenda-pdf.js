@@ -34,7 +34,7 @@ function processBillText(bill) {
   // Find sponsor lines
   const startOfSponsors = /^Sponsors?: /
   if (remainingLines.some(line => startOfSponsors.test(line))) {
-    const startOfDescription = /^(Ordinance|Motion|Resolution|Hearing|Proposed|Budget and Appropriation Ordinance|Urgency ordinance|Charter Amendment|Emergency ordinance) /
+    const startOfDescription = /^(Ordinance|Motion|Resolution|Hearing|Proposed|Budget and Appropriation Ordinance|Urgency ordinance|Charter Amendment|Emergency ordinance|Reenactment) /
     const sponsorLines = []
     try {
       while (!startOfDescription.test(remainingLines[0])) {
